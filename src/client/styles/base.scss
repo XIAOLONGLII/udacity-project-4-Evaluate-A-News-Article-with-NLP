@@ -13,4 +13,29 @@ section {
     max-width: 800px;
     margin: 50px auto;
 }
-
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+}
+#name {
+    // flex: 1;
+    // flex-grow: 1;
+    // flex-shrink: 1;
+    // flex-basis: 0%;
+    display: flex;
+    border-style: none;
+    border-radius: 25px;
+    outline: none;
+    height:40px;
+    // padding: 5px 8px 0 16px;
+    // padding-top: 5px;
+    // padding-right: 8px;
+    // padding-bottom: 0px;
+    // padding-left: 14px;
+    // padding-left: 14px;
+}

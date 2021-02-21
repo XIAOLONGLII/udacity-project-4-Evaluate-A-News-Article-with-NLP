@@ -6,19 +6,21 @@
     </head>
     <body>
         <header>
-            <div class="">
+            <!-- <div class="">
                 Logo
             </div>
             <div class="">
                 navigation
-            </div>
+            </div> -->
         </header>
 
         <main>
             <section>
+                <img src="/src/client/img/google.png" alt="Google" class="center">
                 <form class="" onsubmit="return Client.handleSubmit(event)">
-                    <input id="name" type="text" name="input" placeholder="Name">
-                    <input type="submit" name="" value="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">
+                    <input id="name" type="text" name="input" placeholder="URL..." autofocus>
+                    <button type="submit" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">Go</button>
+                    <!-- <input type="submit" name="" value="Go" onclick="return Client.handleSubmit(event)" onsubmit="return Client.handleSubmit(event)">-->
                 </form>
             </section>
 

@@ -18,6 +18,7 @@
     "express": "^4.17.1",
     "meaning-cloud": "^1.1.10",
     "node-fetch": "^2.6.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12",
     "workbox-webpack-plugin": "^6.1.0"
